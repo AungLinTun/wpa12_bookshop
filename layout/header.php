@@ -4,10 +4,10 @@
 	<meta charset="UTF-8">
 	<title>WPA12 BookShop</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://localhost/bookshop/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="http://localhost/bookshop/css/style.css" />
+	<script src="http://localhost/bookshop/js/jquery.js"></script>
+	<script src="http://localhost/bookshop/js/bootstrap.js"></script>
 </head>
 <div class="row">
 	<div class="col-md-12 ">
@@ -26,10 +26,11 @@
 			      		<li><a href="http://localhost/bookshop/"><i class="glyphicon glyphicon-home"></i></a></li>
 			      		<li><a href="#"><i class="glyphicon glyphicon-shopping-cart"></i></a></li>
 			      		<li><a href="http://localhost/bookshop/profile.php"><i class="glyphicon glyphicon-user"></i></a></li>
+ 					<li><a href="http://localhost/bookshop/backend/"><i class="glyphicon glyphicon-cog"></i></a></li>
 			      		<li><a href="http://localhost/bookshop/login.php"><i class="glyphicon glyphicon-log-in"></i></a></li>
 			    	</ul>
 			</div>
-			</div>
+		</div>
 		</nav>
 	</div>
 </div>
@@ -51,11 +52,11 @@
 			      <li class="dropdown">
 			        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Books By Category <b class="caret"></b></a>
 			        <ul class="dropdown-menu">
-			          <li><a href="software.php">Software</a></li>
-			          <li><a href="cook.php">Cook</a></li>
-			          <li><a href="horror.php">Horror</a></li>
-			          <li><a href="humor.php">Humor</a></li>
-          			          <li><a href="music.php">Musics</a></li>
+			          <li><a href="http://localhost/bookshop/software.php">Software</a></li>
+			          <li><a href="http://localhost/bookshop/cook.php">Cook</a></li>
+			          <li><a href="http://localhost/bookshop/horror.php">Horror</a></li>
+			          <li><a href="http://localhost/bookshop/humor.php">Humor</a></li>
+          			          <li><a href="http://localhost/bookshop/music.php">Musics</a></li>
 			        </ul>
 			      </li>
 			</ul>
@@ -67,8 +68,8 @@
 			<div class="input-group custom-search-form col-md-5 pull-right" style="margin-right:16px;">
 			              <input type="text" class="form-control">
 			              <span class="input-group-btn">
-			              <button class="btn btn-default" type="button">
-			              <span class="glyphicon glyphicon-search"></span>
+				              <button class="btn btn-default" type="button">
+				              <span class="glyphicon glyphicon-search"></span>
 			             </button>
 			             </span>
 			</div><!-- /input-group -->
