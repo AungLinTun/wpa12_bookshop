@@ -2,6 +2,11 @@
 <body>
 </br>
 <div class="container">
+	<ol class="breadcrumb">
+		  <li><a href="http://localhost/bookshop/">Home</a></li>
+		  <li><a href="http://localhost/bookshop/category.php">Category</a></li>
+		  <li class="active">humor</li>
+	</ol>
 	<div class="row">
 		<div class="col-md-2">
 			<?php require "category_table.php";  ?>
@@ -16,8 +21,8 @@
 						<div class="col-md-3">
 							<img src="img/small_002hu.jpg" class="img-polaroid">
 						</div>
-						<h4 class="text-info">Gyrovagues
-							An Anthology of Interest</h4>
+						<a href="http://localhost/bookshop/detail.php"><h4 class="text-info">Gyrovagues
+							An Anthology of Interest</h4></a>
 							<p class="text-info">
 								by Jaap Kemp</br>
 								List Price <strike>$37.99</strike>
@@ -31,7 +36,7 @@
 							<div class="col-md-3">
 								<img src="img/smallhu.jpg" class="img-polaroid">
 							</div>
-							<h4 class="text-info">Приключения большой девочки в плоском городе</h4>
+							<a href="http://localhost/bookshop/detail.php"><h4 class="text-info">Приключения большой девочки в плоском городе</h4></a>
 							<p class="text-info">
 								by Юля Пилявская</br>
 								List Price <strike>$36.99</strike>
@@ -45,7 +50,7 @@
 							<div class="col-md-3">
 								<img src="img/smallhu2.png" class="img-polaroid">
 							</div>
-							<h4 class="text-info">The Light of the Dragons</h4>
+							<a href="http://localhost/bookshop/detail.php"><h4 class="text-info">The Light of the Dragons</h4></a>
 							<p class="text-info">
 								by Brynn Charity</br>
 								List Price <strike>$37.99</strike>

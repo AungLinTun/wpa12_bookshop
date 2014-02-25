@@ -3,6 +3,11 @@
 <!-- Body Start Here --> 
 </br>
 <div class="container">
+ 	<ol class="breadcrumb">
+                      <li><a href="http://localhost/bookshop/">Home</a></li>
+                      <li><a href="http://localhost/bookshop/category.php">Category</a></li>
+                      <li class="active">all product by category</li>
+             </ol>
 	<div class="row">
 		<div class="col-md-2">
 			<?php require "category_table.php";  ?>

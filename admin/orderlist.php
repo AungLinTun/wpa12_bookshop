@@ -5,9 +5,8 @@
     <div class="row">
         <div class="container">
             <div class="col-md-12">
-                <h1>Books Order Lists</h1>
+                <h1>Order Lists</h1>
                 <table class="table table-bordered table-striped responsive-utilities">
-
                     <thead>
                         <tr>
                             <th>Name</th>

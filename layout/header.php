@@ -8,6 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="http://localhost/bookshop/css/style.css" />
 	<script src="http://localhost/bookshop/js/jquery.js"></script>
 	<script src="http://localhost/bookshop/js/bootstrap.js"></script>
+	<script src="http://localhost/bookshop/js/tab.js"></script>
+	<script src="http://localhost/bookshop/js/modal.js"></script>
+
 </head>
 <div class="row">
 	<div class="col-md-12 ">
@@ -24,9 +27,8 @@
 			<div class="collapse navbar-collapse  pull-right" style="margin-right:16px;">
 			             <ul class="nav navbar-nav">
 			      		<li><a href="http://localhost/bookshop/"><i class="glyphicon glyphicon-home"></i></a></li>
-			      		<li><a href="#"><i class="glyphicon glyphicon-shopping-cart"></i></a></li>
+			      		<li><a href="http://localhost/bookshop/checkout.php"><i class="glyphicon glyphicon-shopping-cart"></i></a></li>
 			      		<li><a href="http://localhost/bookshop/profile.php"><i class="glyphicon glyphicon-user"></i></a></li>
- 					<li><a href="http://localhost/bookshop/backend/"><i class="glyphicon glyphicon-cog"></i></a></li>
 			      		<li><a href="http://localhost/bookshop/login.php"><i class="glyphicon glyphicon-log-in"></i></a></li>
 			    	</ul>
 			</div>
@@ -61,9 +63,9 @@
 			      </li>
 			</ul>
 			<ul class="nav navbar-nav">					
-				<li><a href="#">New books</a></li>
-				<li><a href="#">Bestsellers</a></li>
-				<li><a href="#">Used Books</a></li>
+				<li><a href="http://localhost/bookshop/category.php">New books</a></li>
+				<li><a href="http://localhost/bookshop/music.php">Bestsellers</a></li>
+				<li><a href="http://localhost/bookshop/software.php">Used Books</a></li>
 			</ul>	
 			<div class="input-group custom-search-form col-md-5 pull-right" style="margin-right:16px;">
 			              <input type="text" class="form-control">
@@ -78,3 +80,5 @@
 		</nav>
 	</div>
 </div>
+<hr/>
+
