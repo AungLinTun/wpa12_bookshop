@@ -1,4 +1,3 @@
-
 <?php require "../layout/header.php";  ?>
 <body>
     <!-- Body Start Here --> 
@@ -67,4 +66,4 @@
 
                 <!-- Body EndHere -->
             </body>
-            <?php require "../layout/footer.php";  ?>
+<?php require "../layout/footer.php";  ?>
