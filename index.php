@@ -1,5 +1,5 @@
 <?php require "layout/header.php";  ?>
-<body>
+<?php require "layout/head.php";  ?>
 	<!-- Body Start Here --> 
 	<div class="container">
 		<h2 class="text-success">Bestsellers</h2>
@@ -15,11 +15,11 @@
 							</div>
 						</div>
 						<div class="offer-content">
-							<h3 class="book-title">
+								<h3 class="book-title">
 								Fangirl (Paperback) 
 							</h3>
 							<p>
-								<a href="http://localhost/bookshop/detail.php"><img class="text-center" src="images/fangirl.jpg" ></a><br>
+								<a href="view/detail.php"><img class="text-center" src="images/fangirl.jpg" ></a><br>
 								<small>By Rainbow Rowell</small><br>
 								<small class="text-danger">2.23$</small><br>
 								<button class="btn btn-sm btn-success col-md-12">Add To Cart</button>
@@ -43,7 +43,7 @@
 								Fangirl (Paperback) 
 							</h3>
 							<p>
-								<a href="http://localhost/bookshop/detail.php"><img class="text-center" src="images/fangirl.jpg"></a><br>
+								<a href="view/detail.php"><img class="text-center" src="images/fangirl.jpg"></a><br>
 								<small>By Rainbow Rowell</small><br>
 								<small class="text-danger">2.23$</small><br>
 								<button class="btn btn-sm btn-success col-md-12">Add To Cart</button>
@@ -67,7 +67,7 @@
 								Fangirl (Paperback) 
 							</h3>
 							<p>
-								<a href="http://localhost/bookshop/detail.php"><img class="text-center" src="images/fangirl.jpg"></a><br>
+								<a href="view/detail.php"><img class="text-center" src="images/fangirl.jpg"></a><br>
 								<small>By Rainbow Rowell</small><br>
 								<small class="text-danger">2.23$</small><br>
 								<button class="btn btn-sm btn-success col-md-12">Add To Cart</button>
@@ -91,7 +91,7 @@
 								Fangirl (Paperback) 
 							</h3>
 							<p>
-								<a href="http://localhost/bookshop/detail.php"><img class="text-center" src="images/fangirl.jpg"></a><br>
+								<a href="view/detail.php"><img class="text-center" src="images/fangirl.jpg"></a><br>
 								<small>By Rainbow Rowell</small><br>
 								<small class="text-danger">2.23$</small><br>
 								<button class="btn btn-sm btn-success col-md-12">Add To Cart</button>
@@ -121,7 +121,7 @@
 								Fangirl (Paperback) 
 							</h3>
 							<p>
-								<a href="http://localhost/bookshop/detail.php"><img class="text-center" src="images/fangirl.jpg"></a><br>
+								<a href="view/detail.php"><img class="text-center" src="images/fangirl.jpg"></a><br>
 								<small>By Rainbow Rowell</small><br>
 								<small class="text-danger">2.23$</small><br>
 								<button class="btn btn-sm btn-success col-md-12">Add To Cart</button>
@@ -145,7 +145,7 @@
 								Fangirl (Paperback) 
 							</h3>
 							<p>
-								<a href="http://localhost/bookshop/detail.php"><img class="text-center" src="images/fangirl.jpg"></a><br>
+								<a href="view/detail.php"><img class="text-center" src="images/fangirl.jpg"></a><br>
 								<small>By Rainbow Rowell</small><br>
 								<small class="text-danger">2.23$</small><br>
 								<button class="btn btn-sm btn-success col-md-12">Add To Cart</button>
@@ -169,7 +169,7 @@
 								Fangirl (Paperback) 
 							</h3>
 							<p>
-								<a href="http://localhost/bookshop/detail.php"><img class="text-center" src="images/fangirl.jpg"></a><br>
+								<a href="view/detail.php"><img class="text-center" src="images/fangirl.jpg"></a><br>
 								<small>By Rainbow Rowell</small><br>
 								<small class="text-danger">2.23$</small><br>
 								<button class="btn btn-sm btn-success col-md-12">Add To Cart</button>
@@ -193,7 +193,7 @@
 								Fangirl (Paperback) 
 							</h3>
 							<p>
-								<a href="http://localhost/bookshop/detail.php"><img class="text-center" src="images/fangirl.jpg"></a><br>
+								<a href="view/detail.php"><img class="text-center" src="images/fangirl.jpg"></a><br>
 								<small>By Rainbow Rowell</small><br>
 								<small class="text-danger">2.23$</small><br>
 								<button class="btn btn-sm btn-success col-md-12">Add To Cart</button>

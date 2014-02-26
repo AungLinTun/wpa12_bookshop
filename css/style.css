@@ -187,3 +187,15 @@
 	right: -65px;
 	z-index: 1032;
 }
+
+/* Footer */
+
+.footer{
+	min-height:200px;
+	background: #efefef;
+}
+
+
+.customer-profile-container{
+	min-height: 400px;
+}

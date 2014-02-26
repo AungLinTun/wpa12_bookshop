@@ -1,0 +1,83 @@
+Request -> 
+
+
+Request -> check method ->
+
+
+extract $attribute;
+
+
+// $request->attributes->add(
+// 		array(
+// 			'test'=> 'how are you?',
+// 			'_controller' => 'TestController'
+// 		)
+// );
+
+// function TestController($test){
+// 	echo $test;
+// }
+
+// $attributes = $request->attributes->all();
+
+// extract($attributes);
+
+// var_dump($attributes);
+
+// call_user_func_array($_controller, array('test'=>$test));
+
+
+define('DD', __DIR__ .'/../');
+require DD.'/vendor/autoload.php';
+
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpKernel\HttpKernel;
+
+$request = Request::createFromGlobals();
+$url=$request->getPathInfo();
+$test=explode("/", $url);
+
+if(empty($test)) {
+	$result = array( 0 => '' );
+} else {
+	$result = array_values($test);
+}
+switch($result[0]) {
+	case "all-students":
+		$data['students'] = Student::all();
+		View::make('all-students', $data);
+		break; 
+	case "detail":
+		if(isset($result[1])) {
+			$result = $result[1];
+			$data['students'] = Student::get($result);
+			if($data['students'] != null) {
+				$data['scripts'] = Student::getInterests($result, 'script');
+				$data['languages'] = Student::getInterests($result, 'language');
+				$data['experiences'] = Student::getexperiences($result);				
+				$data['occupations'] = Student::getOccupation($result);			
+			}
+			View::make('detail', $data);
+			break;	
+		}else {
+			View::make('404');
+			break;
+		}
+	case "php-foundation":
+		$result[0]='PHP Foundation';
+		$data['students']=Student::getClass($result[0]);
+		View::make('all-students',$data);
+		break;
+	case "php-advanced":
+		$result[0]='PHP Advanced';
+		$data['students']=Student::getClass($result[0]);
+		View::make('all-students',$data);
+		break;
+	case "":
+		View::make('home');
+		break;
+	default:
+		View::make('404');
+}
+
